@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5A73F415E094A800987952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73F315E094A800987952 /* UIKit.framework */; };
+		1A5A73F615E094A800987952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73F515E094A800987952 /* Foundation.framework */; };
+		1A5A73F815E094A800987952 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73F715E094A800987952 /* CoreGraphics.framework */; };
+		1A5A73FA15E094A800987952 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73F915E094A800987952 /* GLKit.framework */; };
+		1A5A73FC15E094A800987952 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73FB15E094A800987952 /* OpenGLES.framework */; };
+		1A5A740215E094A800987952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A740015E094A800987952 /* InfoPlist.strings */; };
+		1A5A740415E094A800987952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A740315E094A800987952 /* main.m */; };
+		1A5A740815E094A800987952 /* TimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A740715E094A800987952 /* TimerAppDelegate.m */; };
+		1A5A740B15E094A900987952 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A740915E094A900987952 /* MainStoryboard.storyboard */; };
+		1A5A740D15E094A900987952 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A740C15E094A900987952 /* Shader.fsh */; };
+		1A5A740F15E094A900987952 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A740E15E094A900987952 /* Shader.vsh */; };
+		1A5A741215E094A900987952 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A741115E094A900987952 /* TimerViewController.m */; };
+		1A5A741A15E094AD00987952 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A741915E094AD00987952 /* SenTestingKit.framework */; };
+		1A5A741B15E094AD00987952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73F315E094A800987952 /* UIKit.framework */; };
+		1A5A741C15E094AD00987952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5A73F515E094A800987952 /* Foundation.framework */; };
+		1A5A742415E094AD00987952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A5A742215E094AD00987952 /* InfoPlist.strings */; };
+		1A5A742715E094AD00987952 /* TANA_gamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5A742615E094AD00987952 /* TANA_gamesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5A741D15E094AD00987952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5A73E615E094A700987952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5A73EE15E094A800987952;
+			remoteInfo = TANA.games;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5A73EF15E094A800987952 /* TANA.games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TANA.games.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5A73F315E094A800987952 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A5A73F515E094A800987952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A5A73F715E094A800987952 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A5A73F915E094A800987952 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1A5A73FB15E094A800987952 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1A5A73FF15E094A800987952 /* TANA.games-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TANA.games-Info.plist"; sourceTree = "<group>"; };
+		1A5A740115E094A800987952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A5A740315E094A800987952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A5A740515E094A800987952 /* TANA.games-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TANA.games-Prefix.pch"; sourceTree = "<group>"; };
+		1A5A740615E094A800987952 /* TimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAppDelegate.h; sourceTree = "<group>"; };
+		1A5A740715E094A800987952 /* TimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAppDelegate.m; sourceTree = "<group>"; };
+		1A5A740A15E094A900987952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1A5A740C15E094A900987952 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		1A5A740E15E094A900987952 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		1A5A741015E094A900987952 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		1A5A741115E094A900987952 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		1A5A741815E094AD00987952 /* TANA.gamesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANA.gamesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5A741915E094AD00987952 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A5A742115E094AD00987952 /* TANA.gamesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TANA.gamesTests-Info.plist"; sourceTree = "<group>"; };
+		1A5A742315E094AD00987952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A5A742515E094AD00987952 /* TANA_gamesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TANA_gamesTests.h; sourceTree = "<group>"; };
+		1A5A742615E094AD00987952 /* TANA_gamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANA_gamesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5A73EC15E094A800987952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A73F415E094A800987952 /* UIKit.framework in Frameworks */,
+				1A5A73F615E094A800987952 /* Foundation.framework in Frameworks */,
+				1A5A73F815E094A800987952 /* CoreGraphics.framework in Frameworks */,
+				1A5A73FA15E094A800987952 /* GLKit.framework in Frameworks */,
+				1A5A73FC15E094A800987952 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5A741415E094AD00987952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A741A15E094AD00987952 /* SenTestingKit.framework in Frameworks */,
+				1A5A741B15E094AD00987952 /* UIKit.framework in Frameworks */,
+				1A5A741C15E094AD00987952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5A73E415E094A700987952 = {
+			isa = PBXGroup;
+			children = (
+				1A5A73FD15E094A800987952 /* TANA.games */,
+				1A5A741F15E094AD00987952 /* TANA.gamesTests */,
+				1A5A73F215E094A800987952 /* Frameworks */,
+				1A5A73F015E094A800987952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5A73F015E094A800987952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A73EF15E094A800987952 /* TANA.games.app */,
+				1A5A741815E094AD00987952 /* TANA.gamesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5A73F215E094A800987952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A73F315E094A800987952 /* UIKit.framework */,
+				1A5A73F515E094A800987952 /* Foundation.framework */,
+				1A5A73F715E094A800987952 /* CoreGraphics.framework */,
+				1A5A73F915E094A800987952 /* GLKit.framework */,
+				1A5A73FB15E094A800987952 /* OpenGLES.framework */,
+				1A5A741915E094AD00987952 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A5A73FD15E094A800987952 /* TANA.games */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A740615E094A800987952 /* TimerAppDelegate.h */,
+				1A5A740715E094A800987952 /* TimerAppDelegate.m */,
+				1A5A740915E094A900987952 /* MainStoryboard.storyboard */,
+				1A5A740C15E094A900987952 /* Shader.fsh */,
+				1A5A740E15E094A900987952 /* Shader.vsh */,
+				1A5A741015E094A900987952 /* TimerViewController.h */,
+				1A5A741115E094A900987952 /* TimerViewController.m */,
+				1A5A73FE15E094A800987952 /* Supporting Files */,
+			);
+			path = TANA.games;
+			sourceTree = "<group>";
+		};
+		1A5A73FE15E094A800987952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A73FF15E094A800987952 /* TANA.games-Info.plist */,
+				1A5A740015E094A800987952 /* InfoPlist.strings */,
+				1A5A740315E094A800987952 /* main.m */,
+				1A5A740515E094A800987952 /* TANA.games-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A5A741F15E094AD00987952 /* TANA.gamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A742515E094AD00987952 /* TANA_gamesTests.h */,
+				1A5A742615E094AD00987952 /* TANA_gamesTests.m */,
+				1A5A742015E094AD00987952 /* Supporting Files */,
+			);
+			path = TANA.gamesTests;
+			sourceTree = "<group>";
+		};
+		1A5A742015E094AD00987952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A742115E094AD00987952 /* TANA.gamesTests-Info.plist */,
+				1A5A742215E094AD00987952 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5A73EE15E094A800987952 /* TANA.games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5A742A15E094AD00987952 /* Build configuration list for PBXNativeTarget "TANA.games" */;
+			buildPhases = (
+				1A5A73EB15E094A800987952 /* Sources */,
+				1A5A73EC15E094A800987952 /* Frameworks */,
+				1A5A73ED15E094A800987952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TANA.games;
+			productName = TANA.games;
+			productReference = 1A5A73EF15E094A800987952 /* TANA.games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A5A741715E094AD00987952 /* TANA.gamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5A742D15E094AD00987952 /* Build configuration list for PBXNativeTarget "TANA.gamesTests" */;
+			buildPhases = (
+				1A5A741315E094AD00987952 /* Sources */,
+				1A5A741415E094AD00987952 /* Frameworks */,
+				1A5A741515E094AD00987952 /* Resources */,
+				1A5A741615E094AD00987952 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5A741E15E094AD00987952 /* PBXTargetDependency */,
+			);
+			name = TANA.gamesTests;
+			productName = TANA.gamesTests;
+			productReference = 1A5A741815E094AD00987952 /* TANA.gamesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5A73E615E094A700987952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Timer;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Yosuke;
+			};
+			buildConfigurationList = 1A5A73E915E094A700987952 /* Build configuration list for PBXProject "TANA.games" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A5A73E415E094A700987952;
+			productRefGroup = 1A5A73F015E094A800987952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5A73EE15E094A800987952 /* TANA.games */,
+				1A5A741715E094AD00987952 /* TANA.gamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5A73ED15E094A800987952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A740215E094A800987952 /* InfoPlist.strings in Resources */,
+				1A5A740B15E094A900987952 /* MainStoryboard.storyboard in Resources */,
+				1A5A740D15E094A900987952 /* Shader.fsh in Resources */,
+				1A5A740F15E094A900987952 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5A741515E094AD00987952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A742415E094AD00987952 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A5A741615E094AD00987952 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5A73EB15E094A800987952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A740415E094A800987952 /* main.m in Sources */,
+				1A5A740815E094A800987952 /* TimerAppDelegate.m in Sources */,
+				1A5A741215E094A900987952 /* TimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5A741315E094AD00987952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5A742715E094AD00987952 /* TANA_gamesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5A741E15E094AD00987952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5A73EE15E094A800987952 /* TANA.games */;
+			targetProxy = 1A5A741D15E094AD00987952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A5A740015E094A800987952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5A740115E094A800987952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A5A740915E094A900987952 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5A740A15E094A900987952 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1A5A742215E094AD00987952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5A742315E094AD00987952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A5A742815E094AD00987952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A5A742915E094AD00987952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5A742B15E094AD00987952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TANA.games/TANA.games-Prefix.pch";
+				INFOPLIST_FILE = "TANA.games/TANA.games-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A5A742C15E094AD00987952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TANA.games/TANA.games-Prefix.pch";
+				INFOPLIST_FILE = "TANA.games/TANA.games-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A5A742E15E094AD00987952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TANA.games.app/TANA.games";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TANA.games/TANA.games-Prefix.pch";
+				INFOPLIST_FILE = "TANA.gamesTests/TANA.gamesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A5A742F15E094AD00987952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TANA.games.app/TANA.games";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TANA.games/TANA.games-Prefix.pch";
+				INFOPLIST_FILE = "TANA.gamesTests/TANA.gamesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5A73E915E094A700987952 /* Build configuration list for PBXProject "TANA.games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5A742815E094AD00987952 /* Debug */,
+				1A5A742915E094AD00987952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5A742A15E094AD00987952 /* Build configuration list for PBXNativeTarget "TANA.games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5A742B15E094AD00987952 /* Debug */,
+				1A5A742C15E094AD00987952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A5A742D15E094AD00987952 /* Build configuration list for PBXNativeTarget "TANA.gamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5A742E15E094AD00987952 /* Debug */,
+				1A5A742F15E094AD00987952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5A73E615E094A700987952 /* Project object */;
+}
