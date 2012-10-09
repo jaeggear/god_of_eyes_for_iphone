@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'rbtest' target in the 'rbtest' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
